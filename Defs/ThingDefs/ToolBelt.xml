@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="TM_BaseToolBelt" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+		  <MaxHitPoints>125</MaxHitPoints>
+		  <Flammability>1.0</Flammability>
+		  <DeteriorationRate>0.5</DeteriorationRate>
+		  <SellPriceFactor>0.4</SellPriceFactor>
+		  <WorkToMake>5000</WorkToMake>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<thingCategories>
+		  <li>Apparel</li>
+		</thingCategories>
+		<comps>
+		  <li>
+			<compClass>CompForbiddable</compClass>
+		  </li>
+		  <li>
+			<compClass>CompColorable</compClass>
+		  </li>
+		</comps>
+		<techLevel>Industrial</techLevel>
+		
+		<!--Every tool belt needs fabric for the belt + pouch-->
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+		  <li>Fabric</li>
+		  <li>Leathery</li>
+		</stuffCategories>
+		<!--All kits are made at tailoring bench-->
+		<recipeMaker>
+		  <workSpeedStat>TailoringSpeed</workSpeedStat>
+		  <workSkill>Crafting</workSkill>
+		  <effectWorking>Tailor</effectWorking>
+		  <soundWorking>Recipe_Tailor</soundWorking>
+		  <!-- <recipeUsers>
+		 <li>ElectricTailoringBench</li>
+			<li>HandTailoringBench</li>
+		  </recipeUsers> -->
+		  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>Toolbelt</li>
+			</tags>
+		</apparel>
+		
+  </ThingDef>
+
+	<!--Constructor and gardener tools are too big for belts, make them kit bags like golf club-->
+	
+	  <!-- ============================Smartphone================================== -->
+	  <ThingDef ParentName="TM_BaseToolBelt">
+		<defName>Tool_Smartphone</defName>
+		<label>smartphone</label>
+		<description>Smartphones are cheap, portable, and widely available, but your pawns might have problems letting go.</description>
+		<graphicData>
+		  <texPath>Tools/Smartphone</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+        <li>Metallic</li>
+        </stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<costList>
+		  <Gold>50</Gold>
+		  <ComponentIndustrial>15</ComponentIndustrial>
+		</costList>
+		<statBases>
+		  <WorkToMake>25000</WorkToMake>
+		  <Mass>0.2</Mass>    
+		</statBases>
+		<equippedStatOffsets>
+		  <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+		  <GlobalLearningFactor>0.25</GlobalLearningFactor>
+		  <PsychicSensitivity>-0.1</PsychicSensitivity>
+		</equippedStatOffsets>
+		<recipeMaker>
+		  <researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+		  <workSpeedStat>SmithingSpeed</workSpeedStat>
+		  <workSkill>Crafting</workSkill>
+		  <effectWorking>Smith</effectWorking>
+		  <soundWorking>Recipe_Smith</soundWorking>
+		  <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		  <recipeUsers>
+			<li>FabricationBench</li>
+		  </recipeUsers>
+		  <defaultIngredientFilter>
+			<categories>
+			  <li>Root</li>
+			</categories>
+			<disallowedThingDefs>
+			  <li>Silver</li>
+			  <li>Gold</li>
+			</disallowedThingDefs>
+		  </defaultIngredientFilter>
+		</recipeMaker>
+		<techLevel>Spacer</techLevel>
+	  </ThingDef> 
+
+	  <!-- ============================Backpack==================================
+	  <ThingDef ParentName="TM_BaseToolBelt">
+		<defName>Tool_Backpack</defName>
+		<label>backpack</label>
+		<description>An extra bag that you can carry with you to help you move more things.</description>
+		<graphicData>
+		  <texPath>Tools/Backpack</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<statBases>
+		  <WorkToMake>6500</WorkToMake>
+		  <Mass>0.2</Mass>    
+		</statBases>
+		<equippedStatOffsets>
+		  <CarryingCapacity>75</CarryingCapacity>
+		</equippedStatOffsets>
+		<recipeMaker>
+		  <researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+	  </ThingDef> -->
+
+	<!-- <ThingDef ParentName="TM_BaseToolBelt">
+		<defName>TM_Garden_Kit</defName>
+		<label>Garden Kit</label>
+		<description>This kit contain all your gardening needs.</description>
+		<graphicData>
+			<texPath>Tools/TM_GardenKit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>5.1</Mass>
+		</statBases>
+		<costList>
+		  <Tool_Sickle>1</Tool_Sickle>
+		  <Tool_Shovel>1</Tool_Shovel>
+		  <Tool_Saw>1</Tool_Saw>
+		</costList>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<equippedStatOffsets>
+		    <PlantHarvestYield>0.5</PlantHarvestYield>
+		    <PlantWorkSpeed>0.5</PlantWorkSpeed>
+		</equippedStatOffsets>
+	</ThingDef> -->
+
+</Defs>

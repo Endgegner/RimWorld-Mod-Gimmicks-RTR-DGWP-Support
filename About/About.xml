@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <name>Gimmicks Only</name>
+
+    <author>Trunken</author>
+
+    <url></url>
+
+    <supportedVersions><li>1.0</li></supportedVersions>
+
+    <description>Link to the Original Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=1526599749 (Author: Chronometrics, Porter: BrokenValkyrie)
+
+Description: This mod is basically the core of Toolmetrics Redux, shrinks its finest elements on a handy 20~ tools based extension and takes it cargo-rdy to the Rim! This mod removes half of the supply, makes it additionally compatible with Right Tool: Rebalanced by Ruyan and avoids double hammers and axes in the stock. Other than in the Original Mod this mod aims to make the added stuff a little bit more special. Some stats have been modified, others have been merged. So we dont lose on any of those helpful stats of the removed items(!) All Textures were adapted and refined, some of them replaced. I'll aim to make them perfect with the time and would even appreciate some help. If someone wants to redesign the graphics, just pm me.
+
+In short: BrokenValkyrie stopped working on Toolmetrix, so i decided to maintain the Gimmicks (Part) Only.
+
+&lt;b&gt;&lt;color=#9AB973&gt;Changes&lt;/color&gt;&lt;/b&gt;
+
+  - Lightweight Vanilla-friendly addition
+  - Slightly retextured and refined
+  - Supports english and german language
+  - Template for other Translations
+  - Flowers cant be crafted anymore. Theyre special, right? Exotic Traders only
+  - Recipes adjusted, Tools are unstackable now
+  - Removed the material part to make them unique, and easier to identify
+  - Removed Toolkits. Should be a different mod
+
+The upcoming Tools turned out to be way too usefull, make the life overall easier for a small colony and the game just way more fun by speeding things up a bit in the early stages. Your Scientist grows already grey hair? Take your choice and fix that!
+
+&lt;b&gt;&lt;color=#FFFF99&gt;Item List&lt;/color&gt;&lt;/b&gt;
+
+  - Traders only: Interstellar Encyclopedia, How To, Coupon Book, Flowers
+  - Forged #1: Screwdriver, Sickle, Thimble, Whistle
+  - Forged #2: Chefs Knife, Skinning Knife, Saw, Shovel
+  - Tailored: Pillow
+  - Crafted: Whip, Fan
+  - Fabricated: Laptop, Smartphone
+  - Mechanics: Power Drill, Skill Saw
+
+All new Gimmicks are categorized and findable under &lt;i&gt;Weapons > Tools&lt;/i&gt; in the Storage. Your technological stage matters (Skill too)
+  
+&lt;b&gt;&lt;color=#FF9966&gt;Security Warning&lt;/color&gt;&lt;/b&gt;
+
+Remember Tools are Weapons! They're sharp and heavy. Even a pillow can kill someone with enough effort :-)
+
+We take no responsibility for burning colonies beside that, given that no one wants to wear a Gun anymore because of this Tool Extension.
+
+&lt;b&gt;&lt;color=#ED2939&gt;Attention&lt;/color&gt;&lt;/b&gt;
+
+Don't mix this Mod with Toolmetrics Redux by BrokenValkyrie &amp; Chronometrics, this is meant to REPLACE the mod functions in a minimalistic way.
+
+&lt;b&gt;&lt;color=#C970DB&gt;Supported Mods&lt;/color&gt;&lt;/b&gt;
+
+  - Right Tool Rebalanced
+ 
+This adds up exactly the missing Tools you need. Chain Saw any1? Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1702013658
+
+&lt;b&gt;&lt;color=#9370DB&gt;Compatibility&lt;/color&gt;&lt;/b&gt;
+
+  - Skilled Stonecutting
+
+Load Gimmicks Only late in the list, especially behind listed or similiar mods.
+
+&lt;b&gt;&lt;color=#7083DB&gt;Credits&lt;/color&gt;&lt;/b&gt;
+- Core * by Chronometrics
+- Ported * by Broken Valkyrie
+- German Translations * by Endgegner
+
+&lt;b&gt;Goals&lt;/b&gt;
+✔ &lt;i&gt;Keep Toolmetrics Alive&lt;/i&gt;
+</description>
+
+</ModMetaData>
