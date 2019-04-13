@@ -61,9 +61,9 @@ Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1702013658
 Load Gimmicks Only late in the list, especially behind listed or similiar mods.
 
 <b><font color="#7083DB">Credits</font></b>
-<em>- Core * by Chronometrics
-- Ported * by Broken Valkyrie
-- German Translations * by Endgegner</em>
+- <em>Core * by Chronometrics</em>
+- <em>Ported * by Broken Valkyrie</em>
+- <em>German Translations * by Endgegner</em>
 
 <b>Goals</b>
 ✔ <em>Keep Toolmetrics Aliv</em>
