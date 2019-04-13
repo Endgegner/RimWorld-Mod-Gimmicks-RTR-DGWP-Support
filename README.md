@@ -65,4 +65,5 @@ Load Gimmicks Only late in the list, especially behind listed or similiar mods.
 - <em>German Translations * by Endgegner</em>
 
 <b>Goals</b>
-✔ <em>Keep Toolmetrics Aliv</em>
+
+✔ <em>Keep Toolmetrics Alive</em>
