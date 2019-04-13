@@ -52,7 +52,6 @@ Don't mix this Mod with Toolmetrics Redux by BrokenValkyrie & Chronometrics, thi
  
 This adds up exactly the missing Tools you need. Chain Saw any1?
 Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1702013658
-9370DB
 
 <b><font color="#9370DB">Compatibility</font></b>
 
@@ -66,5 +65,4 @@ Load Gimmicks Only late in the list, especially behind listed or similiar mods.
 - <em>German Translations * by Endgegner</em>
 
 <b>Goals</b>
-
 ✔ <em>Keep Toolmetrics Aliv</em>
