@@ -1,22 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
+
+	<!-- Mod Support for Dead Goat's Weapon Pack # Weapons to Tools -->
+	<Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationTest">
+                <xpath>//ThingDef[defName = "3dg_MeleeWeapon_Cleaver"]/equippedStatOffsets</xpath>
+                <success>Invert</success>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>//ThingDef[defName = "3dg_MeleeWeapon_Cleaver"]</xpath>
+                <value>
+                    <equippedStatOffsets />
+                </value>
+            </li>
+			<!-- at this point Cleaver has equippedStatOffsets -->
+			<li Class="PatchOperationAdd">
+				<xpath>//ThingDef[defName = "3dg_MeleeWeapon_Cleaver"]/equippedStatOffsets</xpath>
+				<value>
+					<ButcheryFleshSpeed>0.33</ButcheryFleshSpeed>
+					<CookSpeed>0.1</CookSpeed>
+				</value>
+			</li>
+        </operations>
+	</Operation>
   
-  <!-- Mod Support for Right Tools Rebalanced -->
-  <Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationTest">
+                <xpath>//ThingDef[defName = "3dg_MeleeWeapon_Scythe"]/equippedStatOffsets</xpath>
+                <success>Invert</success>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>//ThingDef[defName = "3dg_MeleeWeapon_Scythe"]</xpath>
+                <value>
+                    <equippedStatOffsets />
+                </value>
+            </li>
+			<!-- at this point Scythe has equippedStatOffsets -->
+			<li Class="PatchOperationAdd">
+				<xpath>//ThingDef[defName = "3dg_MeleeWeapon_Scythe"]/equippedStatOffsets</xpath>
+				<value>
+					<PlantHarvestYield>0.1</PlantHarvestYield>
+					<PlantWorkSpeed>0.1</PlantWorkSpeed>
+				</value>
+			</li>
+        </operations>
+	</Operation>
+
+	<!-- Mod Support for Right Tools Rebalanced -->
+	<Operation Class="PatchOperationFindMod">
 	<mods>
 		<li>Right Tool: Rebalanced</li>
 	</mods>
 	<match Class="PatchOperationSequence">
-		<success>Normal</success>
+		<success>Always</success>
 		<operations>
 			<!-- Categorizes to Tools -->
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="RTFTJ_Pickaxe" or defName="RTFTJ_HandAxe" or defName="RTFTJ_Hammer" or defName="RTFTJ_Drill" or defName="RTFTJ_Autohammer" or defName="RTFTJ_Chainsaw"]/thingCategories/li</xpath>
 				<value><li>Tools</li></value>
 			</li>
-			<!-- Adds Recipes to Tools Workbench-->
+			<!-- Adds Recipes to Tools Workbench -->
 			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[@Name="BaseTool_Forged" or @Name="BaseTool_Machined" or @Name="BaseTool_Tailored" or @Name="BaseTool_Crafted" or @Name="BaseTool_Components"]/recipeMaker/recipeUsers</xpath>
+				<xpath>*/ThingDef[@Name="BaseTool_Forged" or @Name="BaseTool_Machined" or @Name="BaseTool_Crafted" or @Name="BaseTool_Components"]/recipeMaker/recipeUsers</xpath>
 				<value><li>RTFTJToolBench</li></value>
 			</li>
 			<!-- Removes Advanced Toolkit -->
@@ -97,9 +146,9 @@
 			</li>
 		</operations>
 	</match>
-  </Operation>
+	</Operation>
 
-  <Operation Class="PatchOperationSequence">
+	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>		
 			<li Class="PatchOperationReplace">
