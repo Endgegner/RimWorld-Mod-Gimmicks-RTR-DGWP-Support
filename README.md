@@ -1,4 +1,4 @@
-# RimWorld Mod Gimmicks mit Right Tool Rebalanced Support
+# RimWorld Mod Gimmicks mit Right Tool Rebalanced und Dead Goat's Weapon Pack Support
 # Mod by Trunken, Version 1.8.1.2
 
 Gimmicks mit Harmony Patch für Right Tool Rebalanced (inkl. Deutsch Übersetzung) 
