@@ -1,6 +1,6 @@
 # RimWorld Mod Gimmicks
 ## Right Tool: Rebalanced und Dead Goat's Weapon Pack Support
-### Mod by Trunken, Version 1.8.1.2
+### Mod by Trunken, Version 1.8.1.5
 
 Gimmicks mit Harmony Patch für Right Tool Rebalanced (inkl. Deutsch Übersetzung) 
 
@@ -62,12 +62,14 @@ Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1695282584 (DE/GER)
 <b><font color="#9370DB">Compatibility</font></b>
 
   - Skilled Stonecutting
-
+  - Dual Wield
+  
 Load Gimmicks Only late in the list, especially behind listed or similiar mods.
 
 <b><font color="#7083DB">Credits</font></b>
 - <em>Core * by Chronometrics</em>
 - <em>Ported * by Broken Valkyrie</em>
+- <em>C# * by Kikohi</em>
 - <em>German Translations * by Endgegner</em>
 
 <b>Goals</b>
