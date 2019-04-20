@@ -25,7 +25,7 @@
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
     <weaponTags>
-      <li>Melee</li>
+      <!-- <li>Melee</li> -->
       <li>Tool</li>
     </weaponTags>
 		<comps>
@@ -184,27 +184,7 @@
     Melee Basic: 500
     Forging: 10000
     Advanced Melee: 20000
-    Bows: 10000-18000
-
-  Things to add maybe
-    <techLevel>Neolithic</techLevel>
-
-    <costList>
-      <Cloth>60</Cloth>
-      <Medicine>2</Medicine>
-    </costList>
-
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
-  
-    <statBases>
-      <power>6</power>
-      <cooldownTime>2</cooldownTime>
-    </statBases>  
-
-    <MarketValue>300</MarketValue>
-  -->
+    Bows: 10000-18000 -->
 
 <!-- Tailored -->
   <!-- ============================Pillow================================== -->
@@ -248,7 +228,7 @@
     <defName>Tool_Whip</defName>
     <label>Whip</label>
     <description>A strong, flexible cord designed for stinging and restricting. Makes you feel like a movie star.</description>
-    <graphicData>
+	<graphicData>
       <texPath>Tools/Whip</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
@@ -274,8 +254,8 @@
         <power>8</power>
       </li>
 	</tools>
-  </ThingDef> 
-
+  </ThingDef>
+  
   <!-- ============================Fan================================== -->
   <ThingDef ParentName="BaseTool_Crafted">
     <defName>Tool_Fan</defName>
@@ -292,7 +272,7 @@
     </stuffCategories>
     <statBases>
       <WorkToMake>1000</WorkToMake>
-      <Mass>0.2</Mass>    
+      <Mass>0.2</Mass>
     </statBases>
     <equippedStatOffsets>
       <ComfyTemperatureMax>10</ComfyTemperatureMax>

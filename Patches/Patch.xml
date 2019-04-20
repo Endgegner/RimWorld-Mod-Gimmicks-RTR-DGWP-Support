@@ -144,6 +144,35 @@
 				<xpath>*/ThingDef[defName="RTFTJ_Autohammer"]/equippedStatOffsets</xpath>
 				<value><SmoothingSpeed>0.1</SmoothingSpeed></value>
 			</li>
+			<!-- Toolbelt Nerf -->
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/ConstructionSpeed</xpath>
+				<value><ConstructionSpeed>0.33</ConstructionSpeed></value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/ConstructSuccessChance</xpath>
+				<value><ConstructSuccessChance>0.2</ConstructSuccessChance></value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/FixBrokenDownBuildingSuccessChance</xpath>
+				<value><FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance></value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/PlantWorkSpeed</xpath>
+				<value><PlantWorkSpeed>0.33</PlantWorkSpeed></value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/PlantHarvestYield</xpath>
+				<value><PlantHarvestYield>0.2</PlantHarvestYield></value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/MiningSpeed</xpath>
+				<value><MiningSpeed>0.2</MiningSpeed></value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="RTFTJ_Toolbelt"]/equippedStatOffsets/MiningYield</xpath>
+				<value><MiningYield>0.2</MiningYield></value>
+			</li>
 		</operations>
 	</match>
 	</Operation>

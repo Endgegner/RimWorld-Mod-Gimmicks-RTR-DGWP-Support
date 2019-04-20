@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-    <name>Gimmicks Only</name>
+    <name>Gimmicks</name>
 
     <author>Trunken</author>
 
@@ -17,7 +17,8 @@ In short: BrokenValkyrie stopped working on Toolmetrix, so i decided to maintain
 
 &lt;b&gt;&lt;color=#9AB973&gt;Changes&lt;/color&gt;&lt;/b&gt;
 
-  - Lightweight Vanilla-friendly addition
+  - Lightweight Vanilla-friendly Edition
+  - Redesigned for early stages
   - Slightly retextured and refined
   - Supports english and german language
   - Template for other Translations
@@ -26,7 +27,7 @@ In short: BrokenValkyrie stopped working on Toolmetrix, so i decided to maintain
   - Removed the material part to make them unique, and easier to identify
   - Removed Toolkits. Should be a different mod
 
-The upcoming Tools turned out to be way too usefull, make the life overall easier for a small colony and the game just way more fun by speeding things up a bit in the early stages. Your Scientist grows already grey hair? Take your choice and fix that!
+The upcoming Tools turned out to be way too usefull, make the life overall easier for a small colony and the game just way more fun by speeding things up a bit. Your Scientist grows already grey hair? Take your choice and fix that!
 
 &lt;b&gt;&lt;color=#FFFF99&gt;Item List&lt;/color&gt;&lt;/b&gt;
 
@@ -52,15 +53,20 @@ Don't mix this Mod with Toolmetrics Redux by BrokenValkyrie &amp; Chronometrics,
 
 &lt;b&gt;&lt;color=#C970DB&gt;Supported Mods&lt;/color&gt;&lt;/b&gt;
 
+  - Dead Goat's Weapon Pack
   - Right Tool Rebalanced
  
-This adds up exactly the missing Tools you need. Chain Saw any1? Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1702013658
+This adds up exactly the missing Tools you need. Chain Saw any1?
+Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1702013658
+
+Patches in handy stats on "Cleaver" and Scythe" when Dead Goat's Weapon Pack is installed.
 
 &lt;b&gt;&lt;color=#9370DB&gt;Compatibility&lt;/color&gt;&lt;/b&gt;
 
   - Skilled Stonecutting
+  - Dual Wield
 
-Load Gimmicks Only late in the list, especially behind listed or similiar mods.
+Load Gimmicks late in the list, especially behind listed or similiar mods.
 
 &lt;b&gt;&lt;color=#7083DB&gt;Credits&lt;/color&gt;&lt;/b&gt;
 - Core * by Chronometrics

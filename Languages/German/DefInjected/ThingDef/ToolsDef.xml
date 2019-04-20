@@ -6,7 +6,7 @@
   <Tool_Pillow.description>Gemütlich und weich in seiner Gesamtheit hilft es seinem Besitzer in tiefen und komfortablen Schlaf zu versinken.</Tool_Pillow.description>
   <Tool_Pillow.tools.0.label>Gewicht</Tool_Pillow.tools.0.label>
 
-  <!-- Whip: Beliebt bei Dominas -->
+  <!-- Whip -->
   <Tool_Whip.label>Peitsche</Tool_Whip.label>
   <Tool_Whip.description>Eine starkes und doch flexibles Seil zum Überspringen von tiefen Schluchten, kontinuierlichem Hüpfen und dem Dressieren von Tieren. Mit so einem Werkzeug kommt man sich vor wie ein Filmstar.</Tool_Whip.description>
   <Tool_Whip.tools.0.label>Schnalzer</Tool_Whip.tools.0.label>
@@ -49,7 +49,7 @@
 
   <!-- Power Drill -->
   <Tool_Power_Drill.label>Power Drill</Tool_Power_Drill.label>
-  <Tool_Power_Drill.description>Der beste und schnellste Weg um zu bauen und wieder abzureißen. Man kann auch einfach eine Menge Löcher in alles machen. Sollte man nicht vergessen.</Tool_Power_Drill.description>
+  <Tool_Power_Drill.description>Der beste und schnellste Weg um zu bauen und wieder abzureißen. Man kann auch einfach eine Menge Löcher in alles machen was man findet. Sollte man nicht vergessen.</Tool_Power_Drill.description>
   <Tool_Power_Drill.tools.0.label>handle</Tool_Power_Drill.tools.0.label>
   <Tool_Power_Drill.tools.1.label>Bohrer</Tool_Power_Drill.tools.1.label>
 
@@ -69,9 +69,9 @@
   <Tool_Screwdriver.tools.0.label>Griff</Tool_Screwdriver.tools.0.label>
   <Tool_Screwdriver.tools.1.label>Klinge</Tool_Screwdriver.tools.1.label>
 
-  <!-- Foxtail Saw -->
+  <!-- Saw -->
   <Tool_Saw.label>Fuchsschwanz</Tool_Saw.label>
-  <Tool_Saw.description>Ein universelles Werkzeug das verwendet wird um Holz zu sägen. Es geht zwar schneller, aber wo gehobelt wird, da fallen auch Späne.</Tool_Saw.description>
+  <Tool_Saw.description>Ein universelles Werkzeug das verwendet wird um Holz zu sägen. Benötigt einen kräftigen Arm.</Tool_Saw.description>
   <Tool_Saw.tools.0.label>Griff</Tool_Saw.tools.0.label>
   <Tool_Saw.tools.1.label>Sägeblatt</Tool_Saw.tools.1.label>
 

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
+  <!-- Recipe Users: FabricationBench -->
   <Make_Tool_Smartphone.label>Fabriziere ein Smartphone</Make_Tool_Smartphone.label>
   <Make_Tool_Smartphone.description>Stelle ein Smartphone her.</Make_Tool_Smartphone.description>
   <Make_Tool_Smartphone.jobString>Mikroelektronik-Manufaktur.</Make_Tool_Smartphone.jobString>
@@ -21,6 +21,7 @@
   <Make_Tool_Fan.jobString>Werkzeug-Anfertigung.</Make_Tool_Fan.jobString>
 
   <!-- Recipe Users: FabricationBench -->
+
   <Make_Tool_Laptop.label>Fabriziere einen Laptop</Make_Tool_Laptop.label>
   <Make_Tool_Laptop.description>Stelle einen Framework Laptop her.</Make_Tool_Laptop.description>
   <Make_Tool_Laptop.jobString>Mikroelektronik-Manufaktur.</Make_Tool_Laptop.jobString>
@@ -46,7 +47,7 @@
   <Make_Tool_Screwdriver.label>Fabriziere einen Schraubenzieher</Make_Tool_Screwdriver.label>
   <Make_Tool_Screwdriver.description>Stelle einen magnetischen Schraubenzieher her.</Make_Tool_Screwdriver.description>
   <Make_Tool_Screwdriver.jobString>Werkzeug-Anfertigung.</Make_Tool_Screwdriver.jobString>
-  <!-- Fuchsschwanz -->
+
   <Make_Tool_Saw.label>Fabriziere einen Fuchsschwanz</Make_Tool_Saw.label>
   <Make_Tool_Saw.description>Stelle einen Säge her.</Make_Tool_Saw.description>
   <Make_Tool_Saw.jobString>Werkzeug-Anfertigung.</Make_Tool_Saw.jobString>
@@ -58,7 +59,7 @@
   <Make_Tool_Skinning_Knife.label>Fabriziere ein Kürschnermesser</Make_Tool_Skinning_Knife.label>
   <Make_Tool_Skinning_Knife.description>Stelle eine Kürschnermesser her.</Make_Tool_Skinning_Knife.description>
   <Make_Tool_Skinning_Knife.jobString>Werkzeug-Anfertigung.</Make_Tool_Skinning_Knife.jobString>
-  
+
   <Make_Tool_Sickle.label>Fabriziere eine Druiden Sichel</Make_Tool_Sickle.label>
   <Make_Tool_Sickle.description>Stelle eine Druiden-Sichel her.</Make_Tool_Sickle.description>
   <Make_Tool_Sickle.jobString>Werkzeug-Anfertigung.</Make_Tool_Sickle.jobString>
