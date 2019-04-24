@@ -52,12 +52,12 @@ Don't mix this Mod with Toolmetrics Redux by BrokenValkyrie & Chronometrics, thi
 - Dead Goat's Weapon Pack
 - Right Tool Rebalanced
 
-This adds up exactly the missing Tools you need. Chain Saw any1?
-Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1702013658
+This adds up exactly the missing Tools you need. Chain Saw any1?<br>
+Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1702013658<br>
 
-Patches in handy stats on "Cleaver" and Scythe" when Dead Goat's Weapon Pack is installed.
-Link: https://steamcommunity.com/sharedfiles/filedetails/?id=728503320 (ENG)
-Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1695282584 (DE/GER)
+Patches in handy stats on "Cleaver" and Scythe" when Dead Goat's Weapon Pack is installed.<br>
+Link: https://steamcommunity.com/sharedfiles/filedetails/?id=728503320 (ENG)<br>
+Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1695282584 (DE/GER)<br>
 
 <b><font color="#9370DB">Compatibility</font></b>
 
